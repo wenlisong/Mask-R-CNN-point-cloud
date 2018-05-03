@@ -122,7 +122,7 @@ all available in one dataset.
 
 The ```Dataset``` class itself is the base class. To use it, create a new
 class that inherits from it and adds functions specific to your dataset.
-See the base `Dataset` class in utils.py and examples of extending it in train_shapes.ipynb and coco.py.
+See the base `Dataset` class in utils.py and examples of extending it in train_own_dataset.ipynb and coco.py.
 
 ## Differences from the Official Paper
 This implementation follows the Mask RCNN paper for the most part, but there are a few cases where we deviated in favor of code simplicity and generalization. These are some of the differences we're aware of. If you encounter other differences, please do let us know.
